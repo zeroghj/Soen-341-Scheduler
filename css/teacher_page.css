@@ -1,0 +1,10 @@
+/*
+ * author mk
+ */
+@import url('customization_root.css');
+@import url('student_page.css');
+
+#main_teacher
+{
+	margin:0 0 0 5%;
+}

@@ -1,0 +1,141 @@
+/*
+ * author mk
+ */
+
+
+h1
+{
+	margin:0;
+	font-size:1.6em;
+}
+
+#scheduler
+{
+	min-width:80%;
+}
+
+
+.sectionsTable
+{
+	box-shadow:0 0 4px 1px rgba(0,0,0,0.5);
+	background:#fff;
+	width:100%;
+}
+
+.sectionsWrapper
+{
+	margin:8% 0 0 2.5%;
+	width:95%;
+	overflow:auto;
+}
+
+#scheduler tr, .sectionsTable tr
+{
+	cursor:pointer;
+}
+
+#scheduler tr:hover.noClick, .sectionsTable tr:hover.noClick
+{
+	cursor: default;
+}
+
+#scheduler tr:hover:not(.noClick), .sectionsTable tr:hover:not(.noClick)
+{
+	background: #9bd4cc;
+}
+
+
+#loadMore
+{
+	font-weight:normal;
+}
+
+#loadMore:hover
+{
+	text-decoration:underline;
+}
+
+.sections
+{
+	display:none;
+}
+
+table tr.tableHeader
+{
+	cursor:default;
+}
+
+.tableClassesSelected
+{
+	width:100%;
+	font-size:12px;
+	color:#666;
+}
+
+.constraints div
+{
+	margin:10px 0;
+}
+
+#pickDays , #pickTime, #pickSemester
+{
+	display:inline;
+	float:left;
+	padding:0 40px 0 20px;
+	border-right:solid 1px #ddd;
+}
+
+#pickDays
+{
+	padding:0 40px 0 3px;
+}
+
+#pickSemester
+{
+	border:none;
+}
+
+#pickDays label
+{
+	padding:0 10px 0 5px;
+}
+
+#pickTime select
+{
+	margin-right:25px;
+}
+
+
+#pickTime option, #pickTime select, #semester option, select#semester 
+{
+	color:#666;
+	font-weight:lighter;
+	font-size:12px;
+}
+
+.errorSpace
+{
+	line-height: 80px;
+}
+
+.removeCourse
+{
+	cursor:pointer;
+	background:rgba(255,255,255,0.4);
+	text-align:center;
+}
+
+.removeCourse:hover
+{
+	text-decoration:underline;
+	background:#9bd4cc;
+}
+
+
+#temp
+{
+	height:13px;
+	font-size: 13px;
+	color:#ba2f2f;
+}
+

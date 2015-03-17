@@ -1,0 +1,270 @@
+/*
+ * author: mk
+ */
+
+html
+{
+	height:100%;
+	width:100%;
+}
+
+body, html 
+{
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	padding:0;
+	color:#454545;
+	font-weight:lighter;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+h1,h2,h3
+{
+	font-weight:lighter;
+}
+
+h3
+{
+	margin:20px 0 10px 0;
+}
+
+.pullDown, .gapper20
+{
+	display:block;
+	clear:both;
+}
+
+.gapper20
+{
+	height:20px;
+}
+
+input[type="text"],input[type="password"], textarea, select
+{
+	border:solid 1px #ccc;
+}
+
+input[type="text"],input[type="password"],select
+{
+	height:25px;
+	padding:0 5px;	
+}
+
+select
+{
+	padding: 0 0 0 5px;
+}
+
+#login
+{
+	margin:14% auto 0 auto;
+	width:350px;
+}
+
+#login h1
+{
+	font-size:1.4em;
+}
+
+
+#login div
+{
+	margin:10px 0 0 0;
+}
+
+
+#login label
+{
+	width:90px;
+	float:left;
+}
+
+.main
+{
+	width:95%;
+	margin:0 auto;
+}
+
+.buttons
+{
+	background:#2ba394;
+	font-weight:lighter;
+	font-size:13px;
+	color:#fff;
+	padding:10px 18px;
+	border:none;
+	-webkit-transition:background 0.2s ease-in;
+	-ms-transition:background 0.2s ease-in;
+	-moz-transition:background 0.2s ease-in;
+	transition:background 0.2s ease-in;
+}
+
+.buttons:hover
+{
+	background:#1f766b;
+}
+
+#login .buttons
+{
+	float:right;
+	margin:5px 70px 0 0
+}
+
+/*************************************************** Header CSS below*************************************************/
+
+
+
+header
+{
+	background:#1f766b;
+	height: 35px;
+    padding: 10px 0 5px 0;
+}
+
+header h1
+{
+	color:#fff;
+	margin:0 0 0 2.5%;
+	display:inline;
+	float:left;
+	font-size: 1.2em;
+    line-height: 30px;
+	font-weight:normal;
+}
+
+nav
+{
+	color:#fff;
+	display:inline;
+	float:right;
+	margin:6px 20px 0 0;
+}
+
+nav a
+{
+	color: #FFFFFF;
+    float: left;
+    height: 35px;
+    margin: -16px 0 0 0;
+    padding: 16px 10px 0 10px;
+    background:rgba(255,255,255,0);
+    
+    -webkit-transition-property:background, text-shadow; 
+    -webkit-transition-duration:400ms;
+    -webkit-transition-timing-function:ease-in;
+    
+    -ms-transition-property:background, text-shadow; 
+    -ms-transition-duration:400ms;
+    -ms-transition-timing-function:ease-in;
+    
+    -moz-transition-property:background, text-shadow; 
+    -moz-transition-duration:400ms;
+    -moz-transition-timing-function:ease-in;
+    
+    transition-property:background, text-shadow; 
+    transition-duration:400ms;
+    transition-timing-function:ease-in;
+ 
+}
+
+nav a:hover
+{
+	text-shadow:0 0 2px #fff;
+	background:rgba(255,255,255,0.2);
+}
+
+
+#ID_student
+{
+	padding:0 4%;
+	color:#eee;
+	line-height:30px;
+}
+
+#mainStudent
+{
+	margin:0 0 0 5%;
+}
+
+
+/*************************************************** Main design import below*************************************************/
+
+
+table
+{
+	margin: 15px auto;
+	font-size:0.9em;
+	border:solid 1px #e7e7e7;
+	float:left;
+}
+
+table tr
+{
+	height:40px;
+}
+
+table tr:nth-child(2n)
+{
+	background:#ECF8F8;
+}
+
+table tr th
+{
+	background:#454545;
+	color:#fff;
+	font-weight:normal;
+	text-align:left;
+	padding:0 10px;
+}
+
+table td
+{
+	vertical-align: middle;
+	padding:0 15px;
+}
+
+/*************************************************** Main design import above*************************************************/
+
+.blanket
+{
+	height:100%;
+	width:100%;
+	position:fixed;
+	background:rgba(0,0,0,0.6);
+	box-shadow:0 0 150px 30px rgba(0, 0, 0, 0.7) inset;
+	z-index:19;
+	display:none;
+}
+
+.blanket .close
+{
+	padding:0 10px;
+	font-size:24px;
+	background:#fff;
+	color:#666;
+	position:fixed;
+	border:solid 1px #ddd;
+	display:block;
+	height: 50px;
+	width:100%;
+	font-weight:lighter;
+	line-height:45px;
+	text-align:center;
+}
+
+.errorSpace
+{
+	color:#b22222;
+	padding:0 25px;
+}
+
+.inliner
+{
+	display:inline;
+	float:left;
+}
+

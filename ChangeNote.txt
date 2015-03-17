@@ -1,0 +1,17 @@
+0.7b
+-Fixed bug with Student_page not displaying properly
+-Added some functionality to admin
+
+0.7
+-changed index.html to allow for teacher and admin to log in
+- Changed password.php to allow for teacher to log in
+- Added teacher_page.php // non functional page for testing purpose
+- Modified teacher.php implemented most functions
+- Light modification to Courses.php and classes.php to implement Teacher.php
+
+-Redid code to use autoload function, rewrite most file.
+- Modified every .php class file and rename some of them because of autoload function
+
+0.6g
+
+- Fixed bug where an error would appear when the last course of a student was deleted
